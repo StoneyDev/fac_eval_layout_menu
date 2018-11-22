@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  font-family: Arial, 'sans-serif';
+  color: $black;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+
+  h1 {
+    padding: 15px;
+    background: $white;
+    border-radius: 50px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
