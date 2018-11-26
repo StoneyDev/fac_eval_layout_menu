@@ -5,13 +5,14 @@ nav {
 
   .navigation {
     list-style: none;
-    background: $blue;
+    background: lighten($blue, 20%);
     flex-direction: column;
     display: flex;
 
     a {
       display: block;
-      padding: 1em;
+      padding: 0.6em;
+      font-size: 22px;
       color: $white;
       text-align: center;
 

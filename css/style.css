@@ -12,14 +12,15 @@ nav {
 
 nav .navigation {
   list-style: none;
-  background: #14213D;
+  background: #2d4b8a;
   flex-direction: column;
   display: flex;
 }
 
 nav .navigation a {
   display: block;
-  padding: 1em;
+  padding: 0.6em;
+  font-size: 22px;
   color: #E0E0E0;
   text-align: center;
 }
@@ -87,6 +88,15 @@ a {
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 2px;
+  font-size: 25px;
+}
+
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */
